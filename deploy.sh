@@ -24,3 +24,4 @@ ibmcloud fn api create /envoy "/$ENVOY_DATABASE_NAME/_bulk_docs" post envoy/bulk
 ibmcloud fn api create /envoy "/$ENVOY_DATABASE_NAME/_bulk_get" get envoy/get_bulk_get --response-type http
 ibmcloud fn api create /envoy "/$ENVOY_DATABASE_NAME/_bulk_get" post envoy/post_bulk_get --response-type json
 ibmcloud fn api create /envoy "/$ENVOY_DATABASE_NAME/_revs_diff" post envoy/revs_diff --response-type json
+
